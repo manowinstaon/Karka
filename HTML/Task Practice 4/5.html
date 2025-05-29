@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 800px;
+            width: 1150px;
+            border: 5px solid black; 
+        }
+        .box1{
+            height: 80px;
+            width: 1250;
+            background-color: rgb(157, 157, 157);
+            margin-left: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+        .child1{
+            height: 30px;
+            width: 80px;
+            color: white;
+            background-color: black;
+            margin-left: 10px;
+        }
+        .child2{
+            height: 30px;
+            width: 80px;
+            color: white;
+            background-color: black;
+        }
+        .child3{
+            height: 30px;
+            width: 80px;
+            color: white;
+            background-color: black;
+        }
+        .child4{
+            height: 30px;
+            width: 100%;
+            background-color: black;
+        }
+        .box2{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            gap: 2px;
+        }
+        .box3{
+            width: 1250px;
+            margin-left: 30px;
+            display: flex;
+            flex-direction: row;
+        }
+        .child6{
+            width: 100%;
+            align-self:flex-start;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="box1"><h1>Kitten Kare</h1></div>
+        <div class="box2">
+            <div class="child1">Home</div>
+            <div class="child2">About</div>
+            <div class="child3">Services</div>
+            <div class="child4"></div>
+        </div>
+        <div class="box3">
+            <div class="child5"><h2>Welcome!</h2>
+            <img src="https://www.sciencing.com/sciencing/differences-puma-cougar-mountain-lion-8514376/5168661edfc84626983ff07d0899bb2d.jpg" height="450px" width="600px">
+            <p>"The domestic cat[1][2] (Felis catus[2] or Felis silvestris catus[4], informally Felis domesticus[6][7]) is a small, usually furry, domesticated, carnivorous mammal. It is often called the housecat when kept as an indoor pet,[8] or simply the cat when there is no need to distinguish it from other felids and felines. Cats are valued by humans for companionship and ability to hunt vermin and household pests. They are primarily nocturnal.[9]"</p>
+            </div>
+            <div class="child6"><h5>Cat Body Types</h5>
+            <ul>
+                <li>Oriental</li>
+                <li>Foreign</li>
+                <li>Semi-Foreign</li>
+                <li>Semi-Cobby</li>
+                <li>Cobby</li>
+            </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
