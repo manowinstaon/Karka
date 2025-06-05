@@ -1,0 +1,120 @@
+.parent{
+    height: 1000px;
+    width: 600px;
+    font-size: 20px;
+}
+.child1{
+    height: 50px;
+    width: 600px;
+    background-color: teal;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.a{
+    height: 100%px;
+    width: 575px;
+    background-color: rgb(227, 254, 255);
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: 45px;
+}
+.child2{
+    height: 100px;
+    width: 575px;
+    background-color: rgb(93, 207, 211);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.child3{
+    display: flex;
+    flex-direction: row;
+}
+.b{
+    height: 200px;
+    width: 335px;
+    background-color: rgb(93, 207, 211);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.c{
+    display: flex;
+    flex-direction: column;
+}
+.d{
+    height: 145px;
+    width: 210px;
+    background-color: rgb(93, 207, 211);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.e{
+    height: 45px;
+    width: 210px;
+    background-color: limegreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.child4{
+    height: 120px;
+    width: 550px;
+    background-color: rgb(93, 207, 211);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.child5{
+    display: flex;
+    flex-direction: row;
+}
+.f{
+    height: 80px;
+    width: 370px;
+    background-color: rgb(93, 207, 211);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.g{
+    height: 80px;
+    width: 170px;
+    background-color: limegreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.child6{
+    height: 80px;
+    width: 575px;
+    background-color: rgb(93, 207, 211);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
