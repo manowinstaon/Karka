@@ -25,11 +25,24 @@
     align-items: center;
 }
 .child3{
+   display: flex;
+   flex-direction: row;
+}
+.box1{
     height: 250px;
-    width: 500px;
+    width: 150px;
+    background-color: rgb(251, 77, 222);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    height: 250px;
+    width: 350px;
     background-color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }

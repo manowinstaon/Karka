@@ -1,75 +1,41 @@
 .parent{
-    width: 800px;
-    background-color: lightgray;
-    border: 20px solid lightgray;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
 }
 .child1{
-    height: 60px;
-    width: 200px;
-    color: white;
-    background-color: black;
+    height: 70px;
+    width: 800px;
+    background-color: orange;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 10px;
 }
 .child2{
-    height: 40px;
-    width: 700;
-    background-color: rgb(128, 128, 128);
-    color: white;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin-left: 10px;
-}
-.child3{
-   height: 80px; 
-   width: 750px;
-   background-color: rgb(128, 128, 128);
-   color: white;
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
-   margin-left: 30px;
-   margin-top: 10px;
-}
-.child4{
-    color: white;
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
 }
 .box1{
-    height: 150px;
-    width: 430px;
-    background-color: black;
-    margin-left: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.box2{
-    height: 150px;
-    width: 300px;
-    background-color:rgb(179, 179, 179);
-    margin-left: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.child5{
-    height: 100px;
-    width: 750px;
-    color: white;
-    background-color: rgb(128, 128, 128);
+    height: 300px;
+    width: 200px;
+    background-color: blue;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    margin-left: 30px;
-    margin-top: 20px;
+}
+.box2{
+    height: 300px;
+    width: 600px;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.child3{
+    height: 70px;
+    width: 800px;
+    background-color: maroon;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
