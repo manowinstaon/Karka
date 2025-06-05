@@ -1,0 +1,72 @@
+.parent{
+    height: 800px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+}
+.box1{
+height: 80px;
+width: 100%;
+background-color: rgb(205, 205, 205);
+}
+.box2{
+height: 60px;
+width: 100%;
+background-color: rgb(205, 205, 205);
+margin-top: 6px;
+}
+.box3{
+height:300px;
+display: flex;
+flex-direction: row;
+}
+.child1{
+    height: 294px;
+    width: 250px;
+    background-color: rgb(205, 205, 205);
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.child2{
+    height: 300px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+.a{
+    height: 142.5px;
+    width: 344px;
+    background-color: rgb(205, 205, 205);
+    margin-top: 6px;
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.b{
+    height: 142.5px;
+    width: 344px;
+    background-color: rgb(205, 205, 205);
+    margin-top: 6px;
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.box4{
+height: 60px;
+width: 100%;
+background-color: rgb(205, 205, 205);
+margin-top: 6px;
+}
+.box5{
+height: 80px;
+width: 100%;
+background-color: rgb(205, 205, 205);
+margin-top: 6px;
+}
