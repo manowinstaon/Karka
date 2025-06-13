@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: 1500px;
+    width: 1200px;
+    margin-left: 150px;
+    position: relative;
+}
+.fline{
+    height: 100px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.fl{
+    position: absolute;
+    display: flex;
+    margin-left: 700px;
+    gap: 45px;
+    
+    
+}
+.head{
+    margin-left: -900px;
+    color: aqua;
+    font-style: italic;
+}
+.home{
+    color: gray;
+    text-decoration: none;
+}
+.ser{
+    color: gray;
+    text-decoration: none; 
+}
+.port{
+    color: gray;
+    text-decoration: none;
+}
+.team{
+    color: gray;
+    text-decoration: none;
+}
+.blog{
+    color: gray;
+    text-decoration: none;
+}
+.con{
+    color: gray;
+    text-decoration: none;
+}
+.sline{
+    height: 400px;
+    width: 1200px;
+    background-color: lightcyan;
+}
+.sline1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+
+    padding-top: 120px;
+}
+.mainhead{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+.mh{
+    font-size: 25px;
+}
+.bn{
+    
+    background-color: green;
+    height: 40px;
+    width: 110px;
+    border: 3px solid white;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.lm{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+
+.left{
+    position: absolute;
+    top: 250px;
+    left: 30px;
+}
+.right{
+    position: absolute;
+    left: 1140px;
+    top: 250px;
+}
+.tline{
+    height: 400px;
+    width: 1200px;
+}
+.design{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    padding-top: 200px;
+
+}
+.custom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.web{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; 
+}
+.blog1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+}
+.mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.rd{
+      
+    background-color: skyblue;
+    height: 26px;
+    width: 100px;
+    padding-top: 15px;
+    padding-left: 18px;
+
+}
+.rd1{
+    text-decoration: none;
+    color: white;
+}
+.rocket{
+    position: absolute;
+    bottom: 850px;
+}
+.desk{
+    position: absolute;
+    bottom: 850px;
+}
+.bulb{
+    position: absolute;
+    bottom: 850px;
+}
+.mob{
+    position: absolute;
+    bottom: 850px;
+}
+.ffline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+.up{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.down{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.ul1{
+    height: 200px;
+    width: 300px;
+}
+.uc1{
+    height: 200px;
+    width: 300px;
+}
+.ur1{
+    height: 200px;
+    width: 300px;
+}
+.dl1{
+    height: 200px;
+    width: 300px;
+}
+.dc1{
+    height: 200px;
+    width: 300px;
+}
+.dr1{
+    height: 200px;
+    width: 300px;
+}
+.port1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.port2{
+    text-align: center;
+    color: grey;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.saw{
+    background-color: skyblue;
+    height: 40px;
+    width: 110px;
+    position: absolute;
+    left: 550px;
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: none;
+    top: 1410px;
+}
+.saw1{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.images2{
+    height: 400px;
+    width: 1200px;
+    opacity: 20%;
+    position: absolute;
+}
