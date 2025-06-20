@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onkeydown="keyPress()" onkeyup="keyRelease()">
+    <div id="one">Welcome</div>
+
+    <script>
+        function keyPress(){
+            const a= document.getElementById("one");
+            a.textContent = "Key pressed"
+        }
+        function keyRelease(){
+            const a= document.getElementById("one");
+            a.textContent = "Key released!"
+        }
+
+    </script>
+</body>
+</html>

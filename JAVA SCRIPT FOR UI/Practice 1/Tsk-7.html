@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #one{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="one" onmouseenter="mouseIn()" onmouseleave="mouseOut()">
+    <h1>Wellcome</h1>
+    </div>
+
+    <script>
+        function mouseIn(){
+            const main = document.getElementById("one");
+            main.textContent = "Mouse Entered"
+        }
+        function mouseOut(){
+            const main = document.getElementById("one")
+            main.textContent = "Mouse Left!"
+        }
+    </script>
+</body>
+</html>
